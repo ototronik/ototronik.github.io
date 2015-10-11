@@ -67,7 +67,7 @@ footer{float :left;width :100%;background-color :#eee;height :50px;color :#aaa;p
 #left-sidebar{float:left;width:500px;border-right:1px solid #f1f5f4;margin-right:15px;margin-left:15px;padding-top:15px;}
 #left-sidebar2{float:left;width:500px;border-right:1px solid #b3b3b3;margin-right:15px;padding-top:15px;}
 #right-sidebar{float:left;width:500px;padding-top:25px;margin-right:15px;margin-left:15px;}
-#right-sidebar2{float:right;width:500px;padding-top:25px;margin-right:10px;border-right:1px solid #f1f5f4;margin-left:15px;}
+#right-sidebar2{float:right;width:400px;padding-top:25px;margin-right:10px;border-right:1px solid #f1f5f4;margin-left:15px;}
 
 /* Main menu */
 
