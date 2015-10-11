@@ -320,8 +320,6 @@ if (window.location.protocol != "https:")
 		var statusElem  = document.getElementById('status'),
     state               = document.getElementById('state');
 			function online(event) {
-  statusElem.className = navigator.onLine ? 'success' : 'fail';
-  statusElem.innerHTML = navigator.onLine ? 'success' : 'fail';
   state.innerHTML += '<li>status: ' + event.type + '</li>';
 }
 addEvent(window, 'online', online);
@@ -331,7 +329,7 @@ online({ type: 'online' });
   } );
   </script>
 					<div>
-						<ol id="state"></ol></div>
+						<p id="state"></p></div>
 							<a rel='dialog' href='mailto:isa.muhammad.said@gmail.com' role='button' class='uiButton' ><span class='uiButtonText'>Send-Email</span></a>							
 												
             <p id="localstorage-message">Note</p>
