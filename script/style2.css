@@ -64,7 +64,7 @@ img{border :0px solid #d8dfea;padding :10px;box-shadow:1px 0 1px #CCCCCC,-1px 0 
 footer{float :left;width :100%;background-color :#eee;height :50px;color :#aaa;padding-top :10px;}
 .style5{font-size:19px;font-family:DroidSansMono;color :#3B5998; font-weight:bold}
 
-#left-sidebar{float:left;width:500px;border-right:1px solid #f1f5f4;margin-right:15px;margin-left:15px;padding-top:15px;}
+#left-sidebar{float:left;width:500px;border-right:1px solid #f1f5f4;margin-right:15px;margin-left:25px;padding-top:15px;}
 #left-sidebar2{float:left;width:610px;border-right:1px solid #b3b3b3;margin-right:15px;padding-top:15px;}
 #right-sidebar{float:left;width:500px;padding-top:25px;margin-right:15px;margin-left:15px;}
 #right-sidebar2{float:right;width:500px;padding-top:25px;margin-right:10px;border-right:1px solid #f1f5f4;margin-left:15px;}
