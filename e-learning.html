@@ -67,7 +67,7 @@
 <script src="script/standard.js" type="text/javascript"></script>
 <script type="text/javascript" src="script/h5utils.js"></script>
 <script type="text/javascript" src="script/custom.js"></script>
-<script src="http://connect.facebook.net/en_US/all.js"></script>
+<script src="https://connect.facebook.net/en_US/all.js"></script>
 	
 	
 	
@@ -189,6 +189,14 @@
 <body class="portrait inner" style="height: auto;">
 
 <div id="left-sidebar">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=769084733220891";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <script>
   // This is called with the results from from FB.getLoginStatus().
@@ -279,15 +287,7 @@
   the JavaScript SDK to present a graphical Login button that triggers
   the FB.login() function when clicked.
 -->
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>        
+      
 <div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="true" data-auto-logout-link="true"></div>				
 
 <!--<div id="status">
@@ -299,14 +299,7 @@
 if (window.location.protocol != "https:")
     window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
 </script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=769084733220891";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="fb-comments" data-href="https://ototronik.github.io/e-learning.html" data-numposts="10"></div>		
 		
 </div>
