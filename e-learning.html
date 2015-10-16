@@ -188,30 +188,21 @@
 <body class="portrait inner" style="height: auto;">
 
 <div id="left-sidebar">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=769084733220891";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-      
-<div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="true" data-auto-logout-link="true"></div>				
-
-<!--<div id="status">
-</div>        -->
-				
-
-
+<div id="disqus_thread"></div>
 <script type="text/javascript">
-if (window.location.protocol != "https:")
-    window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'ototronik';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
 </script>
-
-<div class="fb-comments" data-href="https://ototronik.github.io/e-learning.html" data-numposts="4"></div>		
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>	
 		
-</div>
+
 </div>
 <div id="right-sidebar2">
 <script type="text/javascript">	
@@ -276,21 +267,19 @@ online({ type: 'online' });
               })();  
             </script>
 </div>
-</div>
-</div>
-</div>
-<script>
-<!-- Google Analytics -->
 
-	<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
 <script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-67839609-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>	
-        
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'ototronik';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
 	</body>	
 	</html>
