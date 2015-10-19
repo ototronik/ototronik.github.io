@@ -216,8 +216,9 @@
   state.innerHTML += '<li>status: ' + event.type + '</li>';
 }
 addEvent(window, 'online', online);
-addEvent(window, 'offline', online);
+addEvent(window, 'offline', offline);
 online({ type: 'online' });
+offline({ type: 'offline' });
       }
   } );
   </script>
